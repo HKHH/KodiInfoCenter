@@ -6,6 +6,7 @@ The plugin has only been tested with the Raspberry Pi 5 and is still under devel
 
 ## Install:
 Kodi Infocenter uses QT for the window
+
 sudo apt-get update
 sudo apt-get install python3-pyqt5
 
