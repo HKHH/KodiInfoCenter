@@ -5,7 +5,12 @@ The outputs can be set as usual with plugins.
 The plugin has only been tested with the Raspberry Pi 5 and is still under development.
 
 ## Install
+Kodi Infocenter uses QT for the window
+sudo apt-get update
+sudo apt-get install python3-pyqt5
 
+Under Services -> Control -> Allow remote control via HTTP, enable it and assign a user name and password.
+After installing the plugin, enter the same port, user name, and password in the plugin settings.
 
 Idle Window
 
