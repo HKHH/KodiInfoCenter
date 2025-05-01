@@ -9,3 +9,9 @@ Idle Window
 Player Window
 
 ![PlayStatus](resources/screenshot-02.png)
+
+![Setup](resources/screenshot-03.png)
+
+![Setup 1](resources/screenshot-04.png)
+
+![Setup 2](resources/screenshot-05.png)
