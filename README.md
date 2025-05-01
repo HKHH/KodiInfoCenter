@@ -19,13 +19,15 @@ Desktop setup (HDMI = Kodi Screen, DSI-2 = Kodi Infocenter Screen, 5" Display, 8
 
 ![DesktopSetup](resources/screen_setup.png)
 
-Idle Window
+Kodi Infocenter - Idle Window
 
 ![IdleStatus](resources/screenshot-01.png)
 
-Player Window
+Kodi Infocenter - Player Window
 
 ![PlayStatus](resources/screenshot-02.png)
+
+Kodi Infocenter - Settings
 
 ![Setup](resources/screenshot-03.png)
 
