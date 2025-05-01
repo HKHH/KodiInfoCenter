@@ -15,7 +15,7 @@ After installing the plugin, enter the same port, user name, and password in the
 ## Known issues:
 The window won't launch on the second monitor. The problem is apparently with Wayland, which prevents the move command from being executed. Simply drag the window to the 5" display (800x480, DSI) with the mouse.
 
-Desktop setup
+Desktop setup (HDMI = Kodi Screen, DSI-2 = Kodi Infocenter Screen, 5" Display, 800x480)
 
 ![DesktopSetup](resources/screen_setup.png)
 
