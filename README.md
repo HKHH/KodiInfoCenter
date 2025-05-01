@@ -4,13 +4,17 @@ The outputs can be set as usual with plugins.
 
 The plugin has only been tested with the Raspberry Pi 5 and is still under development.
 
-## Install
+## Install:
 Kodi Infocenter uses QT for the window
 sudo apt-get update
 sudo apt-get install python3-pyqt5
 
 Under Services -> Control -> Allow remote control via HTTP, enable it and assign a user name and password.
 After installing the plugin, enter the same port, user name, and password in the plugin settings.
+
+## Known issues:
+The window won't launch on the second monitor. The problem is apparently with Wayland, which prevents the move command from being executed. Simply drag the window to the 5" display (800x480, DSI) with the mouse.
+
 
 Idle Window
 
