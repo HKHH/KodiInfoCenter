@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="32100">
+    <setting label="32102" type="lsep" />
+    <setting id="mode" type="enum" label="32106" lvalues="32411|32412" default="0"/>
+    <setting id="sep2" type="sep" />
+    <setting id="refreshrate" type="slider" label="32101" option="int" default="2" range="1,20" />
+    <setting id="sep1" type="sep" />
+    <setting id="idletitlefontsize" type="slider" label="32107" option="int" default="40" range="20,60" />
+    <setting id="systimeformat" type="enum" label="32108" lvalues="32421|32422|32423|32424" default="0"/>
+  </category>
+  <category label="32200">
+    <setting label="32206" type="lsep" />
+    <setting id="showweatherinfo" type="bool" label="32207" default="true" />
+    <setting id="country" enable="eq(-1,true)" type="text" label="32201" value="Germany" default="Germany" subsetting="true"/>
+    <setting id="lang" enable="eq(-2,true)" type="text" label="32202" value="de" default="de" subsetting="true"/>
+    <setting id="city" enable="eq(-3,true)" type="text" label="32203" value="Hamburg" default="Hamburg" subsetting="true"/>
+    <setting id="postcode" enable="eq(-4,true)" type="number" label="32204" value="22179" default="22179" subsetting="true"/>
+    <setting id="weatherurl" enable="eq(-5,true)" type="text" label="32205" value="https://wttr.in/{CITY}, {POSTAL_CODE}, {COUNTRY}?format=%t+%C&lang={LANG}" default="https://wttr.in/{CITY}, {POSTAL_CODE}, {COUNTRY}?format=%t+%C&lang={LANG}" subsetting="true"/>
+    <setting id="weatherrefresh" enable="eq(-6,true)" type="slider" label="32209" option="int" default="5" range="1,10" subsetting="true"/>  
+    <setting id="weatherfontsize" enable="eq(-7,true)" type="slider" label="32208" option="int" default="24" range="12,36" subsetting="true"/>  
+  </category>
+  <category label="32600">
+    <setting label="32601" type="lsep" />
+    <setting id="awtitlefontsize" type="slider" label="32602" option="int" default="24" range="12,36"/> 
+    <setting id="awtotaltimefontsize" type="slider" label="32603" option="int" default="24" range="12,36"/>
+    <setting id="audioformattop"    type="enum" label="32604" lvalues="32607|32608|32609|32610|32611" default="0"/>
+    <setting id="audioformatmiddle" type="enum" label="32605" lvalues="32607|32608|32609|32610|32611" default="1"/>
+    <setting id="audioformatbottom" type="enum" label="32606" lvalues="32607|32628|32609|32610|32611" default="2"/>
+    <setting id="videoformattop"    type="enum" label="32624" lvalues="32627|32628|32629|32630|32631" default="0"/>
+    <setting id="videoformatmiddle" type="enum" label="32625" lvalues="32627|32628|32629|32630|32631" default="1"/>
+    <setting id="videoformatbottom" type="enum" label="32626" lvalues="32627|32628|32629|32630|32631" default="2"/>
+  </category>
+  <category label="32300">
+    <setting label="32301" type="lsep" />
+    <setting id="hostport" type="number" label="32303" default="8080" />
+    <setting id="user" type="text" label="32304" value="kodi" default="kodi" />
+    <setting id="password" type="text" option="hidden" label="32305" value="kodi" default="kodi" />
+  </category>
+</settings>

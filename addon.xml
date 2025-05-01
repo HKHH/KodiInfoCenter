@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.script.meinSkript" name="KODI Infocenter" version="0.1.0" provider-name="M4L">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <!-- Hier definierst du, dass es sich um ein Skript-Addon handelt und gibst die Haupteinstiegsdatei an -->
+    <!--  <extension point="xbmc.service" library="kodiinfocenter.py" /> -->
+    <extension point="xbmc.python.script" library="kodiinfocenter.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Information for second screen</summary>
+        <summary lang="de_DE">Informationen auf zweitem Display</summary>
+        <description lang="en_GB">Kodi Infocenter is an 800x480 window for displaying Kodi status information on a 5" display. This add-on can be started manually as a script or automatically as a service.&#xA; This addon is designed for OSOYOO 5" DSI Touch Display with a Raspberry Pi 5.</description>
+        <description lang="de_DE">Kodi Infocenter ist ein 800x480 großes Fenster zur ausgabe von Information zum Kodi Status auf einem 5" Display. Dieses Addon kann als Skript manuell oder als Service automatisch gestartet werden.&#xA;Das Addon wurde für das OSOYOO 5" DSI Touch Display mit einen Raspberry Pi 5 entwickelt.</description>
+        <platform>all</platform>
+        <license>GPL-2.0</license>
+        <website>https://www.multimedia4linux.de</website>
+        <source>https://github.com/</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.png</screenshot>
+            <screenshot>resources/screenshot-02.png</screenshot>
+        </assets>
+    <news>
+     ## Alpha Test Version 0.1 
+    </news>
+    </extension>
+</addon>
