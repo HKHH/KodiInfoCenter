@@ -43,6 +43,13 @@ msgctxt "#32108"
 msgid "System time format"
 msgstr ""
 
+msgctxt "#32109"
+msgid "Desktop position X"
+msgstr ""
+
+msgctxt "#32110"
+msgid "Desktop position Y"
+msgstr ""
 
 # empty strings from id 32109 to 32199
 # Backlight

@@ -24,6 +24,8 @@ PORT = addon.getSetting("hostport")
 USER = addon.getSetting("user")
 PASSWORD = addon.getSetting("password")
 
+DESKTOPPOSITIONX = int(addon.getSetting("desktoppositionx"))
+DESKTOPPOSITIONY = int(addon.getSetting("desktoppositiony"))
 REFRESHRATE = int(addon.getSetting("refreshrate")) * 1000
 IDLETITLEFONTSIZE = int(addon.getSetting("idletitlefontsize"))
 kodisystimeformat = int(addon.getSetting("systimeformat"))
@@ -149,6 +151,7 @@ main_widget = QWidget()
 main_widget.setFixedSize(800, 480)
 main_widget.setWindowFlags(Qt.FramelessWindowHint)
 main_widget.setStyleSheet("background-color: black;")
+main_widget.move(DESKTOPPOSITIONX, DESKTOPPOSITIONY)
 
 # QStackedLayout:
 #    Index 0 = Aktiv-Modus (Kodi läuft)

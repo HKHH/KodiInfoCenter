@@ -2,6 +2,9 @@
 <settings>
   <category label="32100">
     <setting label="32102" type="lsep" />
+    <setting id="desktoppositionx" type="number" label="32109" value="0" default="0"/>
+    <setting id="desktoppositiony" type="number" label="32110" value="0" default="0"/>
+    <setting id="sep1" type="sep" />
     <setting id="mode" type="enum" label="32106" lvalues="32411|32412" default="0"/>
     <setting id="sep2" type="sep" />
     <setting id="refreshrate" type="slider" label="32101" option="int" default="2" range="1,20" />
